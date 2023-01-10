@@ -1,0 +1,174 @@
+.modalBackgroundUser {
+    width: 50vw;
+    height: 50vh;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modalBackgroundTask {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalBackgroundNewUser {
+    position: fixed;
+    z-index: 100;
+    right: 30%;
+    max-width: 600px;
+    box-shadow: 0px 14px 14px 6px rgb(0 0 0 / 31%), 0px 2px 2px 0px rgb(0 0 0 / 15%), 0px 1px 5px 0px rgb(0 0 0 / 28%);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.modalContainerTask{
+    width: 1046px;
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: linear-gradient(to right, rgba(241, 171, 32, 0.853) 0%, white 20%);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modalContainer {
+    max-width: 600px;
+    max-height: 800px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: linear-gradient(to right, rgba(241, 171, 32, 0.853) 0%, white 20%);
+    background-color: rgba(255, 255, 255, 0.75);
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modalContainerProfile {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: linear-gradient(to right, rgba(241, 171, 32, 0.853) 0%, white 20%);
+    background-color: rgba(255, 255, 255, 0.75);
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px
+}
+.fc-button-primary{
+    background-color: rgba(241, 171, 32, 0.853) !important;
+    border-color: rgba(241, 171, 32, 0.853) !important;
+    margin-top: 10px !important;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    padding-left: 143px;
+}
+.datos-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+.profile-image{
+    display: flex;
+    align-items: center;
+}
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.body-editar{
+    display: flex;
+    justify-content: center;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    background-color: crimson;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#continue {
+    background-color: blue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    align-items: center;
+}
+
+input {
+    height: 20px;
+}
+
+.status {
+    width: 150px
+}

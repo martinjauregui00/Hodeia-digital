@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  margin-top: 15px;
+  padding: 15px;
+  padding-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: linear-gradient(to right, rgba(241, 171, 32, 0.853), white);
+  justify-content: space-between;
+
+  .nav-item {
+    margin: 15px;
+    text-align:start;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 100px;
+    height: 20px;
+
+
+    a {
+      border-radius: 5px;
+      width: 170px;
+      background-color: white;
+      padding: 8px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.78);
+      font-family: 'Heebo', sans-serif;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: all 0.5s;
+    }
+
+    &:hover a {
+      transform: translate(-50%, -50%) scale(1.05);
+
+    }
+  }
+
+  .login-data{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    .material-symbols-outlined{
+      font-size:1.5cm;
+      cursor: pointer;   
+      transition: 1s;
+    }
+    .material-symbols-outlined:hover{
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+    #username{
+      color: white;
+      font-family: 'Noto Sans JP', sans-serif;
+      margin-top: 2px;
+      font-weight: bold;
+    }
+  }
+  .login-data1{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+    .material-symbols-outlined{
+      font-size:1.5cm;
+      cursor: pointer;
+      transition: 1s;
+    }
+    .material-symbols-outlined:hover{
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+    
+    #username{
+      color: white;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: bold;
+      margin-top: 2px;
+    }
+  }
+  .boton-logout{
+    cursor: pointer; cursor: hand;
+    transition: 0.5s;
+  }
+
+  .boton-logout:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+  }
+
+
+}

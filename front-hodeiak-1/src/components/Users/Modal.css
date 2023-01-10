@@ -1,0 +1,132 @@
+.modalBackground {
+    width: 50vw;
+    height: 50vh;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalContainer {
+    width: 70vw;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.project{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex h3 {
+    font-weight: 400;
+}
+.projects-title h2{
+    padding-right: 20px;
+}
+.modalUsersClass{
+
+    max-width: 600px;
+    margin: 1em auto;
+    background: linear-gradient(to right, rgba(241, 171, 32, 0.853) 0%, white 20%);
+    box-shadow: 0px 14px 14px 6px rgb(0 0 0 / 31%), 0px 2px 2px 0px rgb(0 0 0 / 15%), 0px 1px 5px 0px rgb(0 0 0 / 28%);
+    border-radius: 20px;
+}
+.projects-title {
+    height: "40px";
+    width: "40px";
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.line-width-modal {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(241, 171, 32, 0.853)
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    background-color: crimson;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#continue {
+    background-color: blue;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 20vw;
+    align-items: center;
+}
+
+input {
+    height: 20px;
+}
+
+.contenedorPrincipal {
+    z-index: 100;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ReactModal__Overlay--after-open {
+    z-index: 1000;
+}

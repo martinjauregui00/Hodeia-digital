@@ -1,0 +1,34 @@
+.content{
+
+    .datos{
+        display: flex;
+
+        .Data{
+            display: flex;
+            margin-left: 15px;
+
+            .list{
+                font-weight: bold;
+    
+            }
+
+            .listName{
+                margin-left: 15px;
+            }
+        }
+
+        .edit{
+           margin-left: 15px;
+        }
+    }
+
+  
+
+    img{
+        margin-top: 10px;
+        height: 8rem;
+        width: 9rem;
+    }
+
+
+}

@@ -1,0 +1,106 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+.modalBackground {
+    min-width: 70vw;
+    height: 50vh;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;}
+option {
+    cursor: pointer;
+}
+.titulo-modal {
+    text-align: center;
+}
+.modalContainer {
+    width: 70vw;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 150px;
+    height: 45px;
+    background-color: crimson;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#continue {
+    background-color: blue;
+}
+
+form {
+    display: flex;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 20vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input {
+    height: 20px;
+}
+.contenedorPrincipal {
+    text-align: center;
+}
+.line-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(241, 171, 32, 0.853)
+}
+
+.MuiInputBase-root {
+    outline: none;
+}

@@ -1,0 +1,69 @@
+.todoLogin{
+   min-height: 100vh;
+    background-image: url('https://hodeia.digital/wp-content/uploads/2022/06/w-graphic-element-1-hodeia.png');
+}
+.titulo {
+    color:rgb(255, 207, 134);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+}
+
+
+.form {
+    background-repeat: no-repeat;
+    background-position: 20rem;
+    margin: 15px;
+    padding: 50px;
+    padding-left:150px;
+    padding-bottom: 10rem;
+    font-size: 17px;
+    font-weight: bold;
+    color:rgba(71, 70, 70, 0.854);
+
+    #txtEmail {
+        border-radius: 10px;
+        border-style: dashed;
+        border-color: rgb(234, 141, 1);
+        border-width: 3px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+        font-size: 17px;
+    }
+
+    #txtPas {
+        border-radius: 10px;
+        border-style: dashed;
+        border-color: rgb(234, 141, 16);
+        border-width: 3px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+        font-size: 17px;
+    }
+
+    #btn {
+        border-radius: 7px;
+        font-weight: bold;
+        color: rgba(26, 15, 2, 0.866);
+        border-color: azure;
+        cursor: pointer;
+        cursor: hand;
+        transition: 0.3s;
+        font-size: 15px;
+        box-shadow: (2px 0px 2px 0px) rgba(71, 70, 70, 0.65);
+    }
+
+    #btn:hover {
+        transform: scale(1.1);
+        color: rgb(166, 102, 6);
+        transition: 0.3s;
+    }
+}
